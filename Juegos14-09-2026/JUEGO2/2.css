@@ -1,0 +1,54 @@
+body {
+    background-color: pink;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.juego {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.btnOpcion {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btnOpcion:hover {
+    border-color: #2451c4;
+    background-color: #eef2ff;
+}
+
+.btnOpcion img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+#btnReiniciarJuego2 {
+    background-color: green;
+    color: wheat;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
