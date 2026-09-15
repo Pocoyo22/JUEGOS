@@ -15,7 +15,7 @@ btnAdivinar.addEventListener("click", function () {
         return;
     }
 
-    intentos = intentos + 1;
+    intentos++;
     contadorIntentos.textContent = "Intentos: " + intentos;
 
     if (numeroUsuario === numeroSecreto) {
