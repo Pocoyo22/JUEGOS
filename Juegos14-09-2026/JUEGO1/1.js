@@ -1,4 +1,3 @@
-// Se corrigió Math.Floor a Math.floor en la primera línea
 let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let intentos = 0;
 
